@@ -57,6 +57,7 @@ img {
   text-decoration: none;
   text-transform: none;
   color: var(--text-white);
+  background: rgb(0 0 0);
 }
 
 .text-4 {
