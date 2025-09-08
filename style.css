@@ -3,7 +3,6 @@ body {
     line-height: 1.6;
     margin: 0;
      background-image: url(https://avatars.mds.yandex.net/i?id=341d2e49d78f3ca8b6fec2700af2dd21_l-9233044-images-thumbs&n=13);
-    padding: 20px;
 }
 
 h1 {
@@ -12,8 +11,8 @@ h1 {
 
 .container {
     max-width: 800px;
-    margin: 20px auto;
-    padding: 50px;
+    margin: 0px auto;
+    padding: 30px;
     background-image: url(https://static.relax.by/images/common/wysiwyg/2018/02/79c548fc0bc940968a5dc773ea4714f0.jpg);
     border-radius: 15px;
     box-shadow: 0 20px 50px rgb(79, 135, 255);
