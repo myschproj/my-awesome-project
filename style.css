@@ -1,20 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
 }
 
 h1 {
-    color: aqua;
+    color: brown;
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: white;
+    background-image: url(https://static.relax.by/images/common/wysiwyg/2018/02/79c548fc0bc940968a5dc773ea4714f0.jpg);
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 50px rgb(79, 135, 255);
+}
+
+h2 {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: chartreuse;
+}
+
+h3 {
+    color: dodgerblue;
+}
+
+button {
+    background-color: #3581c0;
 }
