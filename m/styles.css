@@ -1,4 +1,24 @@
+
+/* Add font files for SF Pro */
+@font-face {
+  font-family: 'SF Pro';
+  src: url('fonts/sf-pro.woff2') format('woff2'),
+       url('fonts/sf-pro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 :root {
+  --font-family-sf-pro: 'SF Pro', sans-serif;
+  --text-black: rgba(0, 0, 0, 1);
+  --text-rgb-0-26-255: rgba(0, 26, 255, 1);
+}
+
+.text-black {
+  color: var(--text-black);
+}
+
+.text-rgb-0-26-255 {
+  color: var(--text-rgb-0-26-255);
 }
 
 
@@ -20,6 +40,42 @@ img {
   height: auto;
 }
 
+.text-2 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-sf-pro);
+  font-weight: normal;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-3 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-sf-pro);
+  font-weight: normal;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-4 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-sf-pro);
+  font-weight: normal;
+  font-size: 24px;
+  text-decoration: underline;
+  text-transform: none;
+  color: var(--text-rgb-0-26-255);
+}
+
 .iphone-16-pro-1-1 {
 @media (max-width: 1440px) {
   .iphone-16-pro-1-1 {
@@ -37,6 +93,5 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  width: 100%;
-  height: auto;
+  background-color: rgba(255, 255, 255, 1);
 }
