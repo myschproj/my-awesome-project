@@ -89,7 +89,7 @@ h1 {
 }
 
 .loaded_hiding .preloader {
-  transition: 0.3s opacity;
+  transition: 1s opacity;
   opacity: 0;
 }
 
@@ -112,5 +112,6 @@ button {
     color: #fff;
     border-radius: 5px;
 }
+
 
 
