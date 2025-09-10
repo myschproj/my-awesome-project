@@ -24,6 +24,21 @@
 </head>
 
 <body>
+	<div class="preloader">
+  		<div class="preloader__row">
+    		<div class="preloader__item"></div>
+    		<div class="preloader__item"></div>
+  		</div>
+	</div>
+	<script>
+  		window.onload = function () {
+    		document.body.classList.add('loaded_hiding');
+    		window.setTimeout(function () {
+      			document.body.classList.add('loaded');
+      			document.body.classList.remove('loaded_hiding');
+    		}, 500);
+  		}
+	</script>
     <h1 align="center">Привет! Я обычная девушка, которая хочет любви за деньги. Пишите в тг...</h1>
     <div class="container">
         <h2>О нас:</h2>
@@ -55,6 +70,7 @@
 </body>
 
 </html>
+
 
 
 
