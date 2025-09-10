@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    color: brown;
+    color: #fff;
 }
 
 .container {
@@ -42,3 +42,4 @@ button {
     color: #fff;
     border-radius: 5px;
 }
+
